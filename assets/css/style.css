@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+}
+
+.mainBody {
+    padding-top: 100px;
+ }
+
+.firstContent {
+     font-size: 16px;
+     color: #333;
+     padding-top: 30px;
+}
+.firstContent span {
+    font-weight: 600;
+    color: #dc1919;
+}
+
+.secondContent {
+    font-size: 15px;
+    color: #555;
+    padding-top: 10px;
+}
+
+.leftButton {
+    padding-top: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0057a7;
+    border-color: #0057a7;
+    border-radius: 0;
+}
+.fishPic {
+    padding-right: 110px;
+    padding-top: 110px;
+}
+
+@media (max-device-width : 768px) {
+    .mainBody {
+        padding-top: 50px;
+    }
+    .leftLogo {
+        text-align: center;
+    }
+    .leftButton {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .rightPic {
+        padding-top: 50px;
+    }
+    .firstContent {
+        padding-top: 70px;
+    }
+    .fishPic {
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+}
